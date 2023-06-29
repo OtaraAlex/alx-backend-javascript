@@ -1,10 +1,14 @@
-export default function getFullResponseFromAPI(success) {
-    const arr = new Promise((resolve, reject) => {
-      if (success) {
-        resolve({ status: 200, body: 'Success' });
-      } else {
-        reject(new Error('The fake API is not working currently'));
-      }
-    });
-    return arr;
-  }
+export function uploadPhoto() {
+  return Promise.resolve({
+    status: 200,
+    body: 'photo-profile-1',
+  });
+}
+
+
+export function createUser() {
+  return Promise.resolve({
+    firstName: 'Guillaume',
+    lastName: 'Salva',
+  });
+}
