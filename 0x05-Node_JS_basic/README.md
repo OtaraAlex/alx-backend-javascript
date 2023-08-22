@@ -538,4 +538,4 @@ Click to show/hide file contents
 }
 ```
 
--   File: [utils.js](../utils.js), [AppController.js](../../AppController.js), [StudentsController.js](../../StudentsController.js), [index.js](../../index.js), [server.js](../server.js)
+-   File: [utils.js](./full_server/utils.js), [AppController.js](./full_server/controllers/AppController.js), [StudentsController.js](./full_server/controllers/StudentsController.js), [index.js](./full_server/routes/index.js), [server.js](./full_server/server.js)
